@@ -97,7 +97,7 @@ def check_url(raw_url):
     raw_url = raw_url.strip()
     if not raw_url:
         return {"label": "No URL entered", "color": "muted",
-                "reasons": ["Paste a URL to run a local heuristic check."]}
+                "reasons": ["Paste a URL to run a quick check."]}
 
     candidate = raw_url if "://" in raw_url else "https://" + raw_url
     parsed = urlparse(candidate)
