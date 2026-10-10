@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 COMMON_PASSWORDS = {
     "password", "password123", "12345678", "qwerty123",
-    "admin123", "letmein", "iloveyou", "welcome123"
+    "admin123", "letmein", "welcome123"
 }
 
 SUSPICIOUS_TERMS = {
