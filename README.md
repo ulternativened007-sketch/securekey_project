@@ -4,7 +4,7 @@ Features:
 - Password strength estimate with improvement tips
 - Secure random password generator (`secrets`)
 - Basic suspicious-URL heuristic checker
-- Flask back-end and responsive HTML/CSS/JavaScript frontend
+- Flask backend and responsive HTML/CSS/JavaScript frontend
 
 ## Run locally
 1. Install Python 3.10 or newer.
